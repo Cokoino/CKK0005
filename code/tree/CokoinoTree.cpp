@@ -35,6 +35,8 @@ void CokoinoTree::Flash(int t)
 /////////////////////////////////////////////////////////
 void CokoinoTree::Flash_ON_OFF(int on,int off)
 {
+  if(on > 255){on = 255;}
+  if(off > 255){off = 255;}
   for(uint8_t i=0;i<10;i++){
     digitalWrite(_pin,LOW);
     delay(off);

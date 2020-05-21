@@ -12,9 +12,9 @@ class CokoinoTree
 {
  public:
      CokoinoTree(uint8_t pin);
-     void Shift(uint8_t num);
-     void Flash(int t);
-     void Flash_ON_OFF(int on,int off);
+     void Shift(uint8_t num);              //The led shift 8 bits and then lights up
+     void Flash(int t);                    //Shining speed
+     void Flash_ON_OFF(int on,int off);    //adjust brightness,ChristmasTrees.Flash_ON_OFF(on:0---255,off:0---255);
  private:
      uint8_t _pin;
      uint8_t new_num;

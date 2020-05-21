@@ -10,9 +10,9 @@ void setup() {
   Serial.println("htpp://www.cokoino.com");
 }
 void loop() {
-  ChristmasTrees.Flash(500);
-  ChristmasTrees.Shift(8);
-  ChristmasTrees.Flash_ON_OFF(250,100);
+  ChristmasTrees.Flash(500);               //Shining speed
+  ChristmasTrees.Shift(8);                 //The led shift 8 bits and then lights up
+  ChristmasTrees.Flash_ON_OFF(250,100);    //adjust brightness,ChristmasTrees.Flash_ON_OFF(on:0---255,off:0---255);
   ChristmasTrees.Flash(100);
   ChristmasTrees.Shift(6);
   ChristmasTrees.Flash_ON_OFF(100,250);

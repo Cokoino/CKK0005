@@ -5,6 +5,6 @@ This code applies to Christmas trees.
 
 ![](https://github.com/Cokoino/CKK0005/raw/master/download.png)
 
-Company web site:
+- Company web site:
 http://cokoino.com/
 
